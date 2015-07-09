@@ -15,5 +15,5 @@ func main() {
 }
 
 func handler(res http.ResponseWriter, req *http.Request) {
-	fmt.Fprintln(res, "Hello World")
+	fmt.Fprintln(res, "<!doctype html><html><body><h1>My Go Web App</h1><h2>Hello from New York!</h2></body></html>")
 }
